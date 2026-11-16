@@ -1,0 +1,10 @@
+1. Extract this ZIP on Windows, preferably in Downloads.
+2. Upload the extracted folder contents to a NEW public GitHub repository (browser Add file > Upload files). Keep the folder structure.
+3. For a Debian VM experiment, use VirtualBox Shared Folders or download the ZIP inside the VM; do NOT claim results until commands executed inside your VM.
+4. In Debian project root: sh scripts/test_harness.sh
+5. Then: sh scripts/edge_probe.sh debian results/debian
+6. Reboot normally: sudo reboot
+7. After login, run: sh scripts/verify_persistence.sh results/debian
+8. Preserve command output and upload result files, excluding private data.
+9. In Netlify: Import existing GitHub repository, publish directory site; build command blank.
+10. Edit site/index.html placeholder with the real GitHub URL.
