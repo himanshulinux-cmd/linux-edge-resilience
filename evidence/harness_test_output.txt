@@ -1,0 +1,8 @@
+Baseline saved: results/smoke_20261116T223007Z_baseline.txt
+Payload saved: results/smoke_20261116T223007Z_payload.txt
+Checksum saved: results/smoke_20261116T223007Z_payload.sha256
+NEXT: reboot normally, then run scripts/verify_persistence.sh results
+results/smoke_20261116T223007Z_payload.txt: OK
+PASS: file content matches pre-reboot checksum
+PASS: simulated corruption detected
+PASS: harness smoke tests complete
