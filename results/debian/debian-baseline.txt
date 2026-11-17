@@ -1,0 +1,35 @@
+=== DATE ===
+2026-11-17T01:02:25+00:00
+=== OS ===
+PRETTY_NAME="Debian GNU/Linux 13 (trixie)"
+NAME="Debian GNU/Linux"
+VERSION_ID="13"
+VERSION="13 (trixie)"
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.7
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+=== KERNEL ===
+6.12.116+deb13-amd64
+=== RAM ===
+               total        used        free      shared  buff/cache   available
+Mem:             967         679          89           2         342         288
+Swap:           1100         208         892
+=== FILESYSTEM ===
+TARGET SOURCE    FSTYPE OPTIONS
+/      /dev/sda1 ext4   rw,relatime,errors=remount-ro
+=== BOOT TIME ===
+Startup finished in 5.556s (kernel) + 23.746s (userspace) = 29.303s 
+graphical.target reached after 23.746s in userspace.
+=== STORAGE ===
+Filesystem     Type      Size  Used Avail Use% Mounted on
+udev           devtmpfs  448M     0  448M   0% /dev
+tmpfs          tmpfs      97M  1.2M   96M   2% /run
+/dev/sda1      ext4       19G  5.2G   13G  30% /
+tmpfs          tmpfs     484M   12K  484M   1% /dev/shm
+tmpfs          tmpfs     5.0M  8.0K  5.0M   1% /run/lock
+tmpfs          tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs          tmpfs     484M   16K  484M   1% /tmp
+tmpfs          tmpfs      97M   92K   97M   1% /run/user/1000

@@ -1,0 +1,19 @@
+timestamp_utc=2026-11-16T23:58:02Z
+label=debian
+hostname=Debian-Edge-Baseline
+PRETTY_NAME="Debian GNU/Linux 13 (trixie)"
+VERSION_ID="13"
+ID=debian
+kernel=6.12.116+deb13-amd64
+machine=x86_64
+MemTotal:         990644 kB
+MemAvailable:     333520 kB
+uptime_seconds=1672.39
+[mount_root]
+/dev/sda1 on / type ext4 (rw,relatime,errors=remount-ro)
+[disk]
+Filesystem     1K-blocks    Used Available Use% Mounted on
+/dev/sda1       19353424 5387632  12957360  30% /
+[boot_analysis]
+Startup finished in 4.928s (kernel) + 19.078s (userspace) = 24.007s 
+graphical.target reached after 19.077s in userspace.
